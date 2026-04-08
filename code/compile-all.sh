@@ -24,13 +24,13 @@ gcc shellcode-creator.c -o shellcode $SAFE_FLAGS
 gcc hackme1.c -o hackme1 $FLAGS
 gcc hackme2.c -o hackme2 $FLAGS
 gcc hackme3.c -o hackme3 $FLAGS
-gcc hackme4.c -o hackme4 $FLAGS
-gcc hackme5.c -o hackme5 $FLAGS
+# gcc hackme4.c -o hackme4 $FLAGS
+# gcc hackme5.c -o hackme5 $FLAGS
 gcc hackme6.c -o hackme6 $FLAGS
 
 gcc exploit1.c -o exploit1 $FLAGS
 gcc exploit2.c -o exploit2 $FLAGS
 gcc exploit3.c -o exploit3 $FLAGS
-gcc exploit4.c -o exploit4 $FLAGS
-gcc exploit5.c -o exploit5 $FLAGS
+# gcc exploit4.c -o exploit4 $FLAGS
+# gcc exploit5.c -o exploit5 $FLAGS
 gcc exploit6.c -o exploit6 $FLAGS
